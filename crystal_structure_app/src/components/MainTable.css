@@ -1,0 +1,15 @@
+.table-responsive {
+  height: 820px;
+  overflow: scroll;
+}
+
+.table-responsive thead tr:nth-child(1) th {
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.table-responsive tr {
+  cursor: pointer;
+}
